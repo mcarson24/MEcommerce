@@ -1,0 +1,26 @@
+{
+  "name": "me-commerce",
+  "version": "0.0.1",
+  "description": "Module 13 homework for Penn LPS Web-Development bootcamp",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcarson24/me-commerce.git"
+  },
+  "author": "matthew.carson@pm.me",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcarson24/me-commerce/issues"
+  },
+  "homepage": "https://github.com/mcarson24/me-commerce#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.19.0"
+  }
+}
