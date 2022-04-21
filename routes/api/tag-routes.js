@@ -1,5 +1,5 @@
 const router = require('express').Router()
-const { Tag, Product, ProductTag } = require('../../models')
+const { Tag, Product } = require('../../models')
 
 router.get('/', async (req, res) => {
   const tags = await Tag.findAll({
